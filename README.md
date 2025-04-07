@@ -1,17 +1,20 @@
-### Team TODOS: 
+### Team TODOS:
 
-Navigate into test-cases and find the questions with your name 
+1. Open your branch e.g. Rahim-branch, Grant-branch, Nico-branch
 
-Write test cases for the code in those questions 
+2. Open the test-cases folder
 
-cd test-cases/[#-Name]
+3. Find the folders with your name
 
---------
+4. Write test cases for the code in those folders only
+
+We can merge into the main branch when all of our folders are editted
+
+---
 
 ### How to Run Files
 
-TODO - fill out how to run test cases here 
-
+TODO - fill out how to run test cases here
 
 ### Assignment 5
 
