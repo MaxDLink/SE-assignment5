@@ -36,3 +36,7 @@ target/surefire-reports/TEST-com.example.twoGrant.RideServiceTest.xml
 target/surefire-reports/
 target/surefire-reports/*.xml
 target/surefire-reports/*.txt
+
+# Maven compiler plugin status files
+target/maven-status/
+target/maven-status/**/*.lst
