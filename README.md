@@ -11,7 +11,7 @@
 ## Project Structure
 ```
 src/
-  ├── main/java/com/example/         # Main implementation files
+  ├-- # files and their tests were collated together in one test directory 
   │  
   └── test/java/com/example/         # Test cases for each design pattern
       ├── twoGrant/                  # Test cases for pattern 2
