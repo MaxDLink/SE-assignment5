@@ -1,20 +1,14 @@
 ### Team TODOS: Due - Fri Apr 18, 2025 11:59pm 
 
-1. Open your branch e.g. Rahim-branch, Grant-branch, Nico-branch
+Check the /Users/maxlink/Desktop/SE-assignment5/src/test/java/com/example/ directory for the test cases for each user. 
 
-2. Open the test-cases folder
-
-3. Find the folders with your name
-
-4. Write test cases for the code in those folders only
-
-We can merge into the main branch when all of our folders are editted
+Check if these are comprehensive enough. 
 
 ---
 
 ### How to Run Files
 
-TODO - fill out how to run test cases here
+cd /Users/maxlink/Desktop/SE-assignment5 && mvn test 
 
 ### Assignment 5
 
