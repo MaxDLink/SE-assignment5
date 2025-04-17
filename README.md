@@ -2,7 +2,11 @@
 
 ## Prerequisites
 - Java JDK 11 or higher
+  - Verify installation: `java -version`
+  - Download: [Oracle JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or [OpenJDK](https://adoptium.net/)
 - Maven 3.6 or higher
+  - Verify installation: `mvn -version`
+  - Download: [Apache Maven](https://maven.apache.org/download.cgi)
 
 ## Project Structure
 ```
@@ -30,10 +34,25 @@ git clone <repository-url>
 cd SE-assignment5
 ```
 
-2. Install dependencies:
+2. Verify your Java and Maven installations:
+```bash
+java -version
+mvn -version
+```
+
+3. Install dependencies and build the project:
 ```bash
 mvn clean install
 ```
+This will:
+- Download all required dependencies
+- Compile the source code
+- Run the tests
+- Create the necessary build artifacts
+
+4. Verify the build was successful:
+- Look for "BUILD SUCCESS" in the terminal output
+- Check that the `target` directory was created
 
 ## Running Tests
 
@@ -47,6 +66,11 @@ To run specific test class (example):
 mvn test -Dtest=TwoGrantTest
 ```
 
+To run tests for a specific pattern (example):
+```bash
+mvn test -Dtest=com.example.twoGrant.*Test
+```
+
 ## Dependencies
 All dependencies are managed through Maven in the `pom.xml` file:
 - Java JDK 11
@@ -54,6 +78,22 @@ All dependencies are managed through Maven in the `pom.xml` file:
 - Maven Surefire Plugin 3.0.0 (Test execution)
 
 The project uses Maven for dependency management and build automation. All necessary dependencies will be automatically downloaded when you run `mvn clean install`.
+
+## Troubleshooting
+
+If you encounter any issues:
+
+1. Java version mismatch:
+   - Ensure you have JDK 11 or higher installed
+   - Verify JAVA_HOME environment variable is set correctly
+
+2. Maven build failures:
+   - Try cleaning the project first: `mvn clean`
+   - Then rebuild: `mvn install`
+
+3. Test failures:
+   - Check the `target/surefire-reports` directory for detailed test reports
+   - Review the specific test class output for error messages
 
 ## Assignment Information
 - Due Date: Fri Apr 18, 2025 11:59pm
