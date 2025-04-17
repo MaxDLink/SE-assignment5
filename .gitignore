@@ -31,3 +31,8 @@ target/surefire-reports/TEST-com.example.factory.FactoryPatternTest.xml
 target/surefire-reports/TEST-com.example.fourRahim.PaymentAdapterTest.xml
 target/surefire-reports/TEST-com.example.threeGrant.DecoratorTest.xml
 target/surefire-reports/TEST-com.example.twoGrant.RideServiceTest.xml
+
+# Maven Surefire test reports
+target/surefire-reports/
+target/surefire-reports/*.xml
+target/surefire-reports/*.txt
